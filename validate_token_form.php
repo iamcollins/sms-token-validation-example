@@ -27,7 +27,7 @@ The Twitter bootstrap framework is loaded via CDN in the includes/header.php fil
   <!-- Display errors and messages -->
   <?php if(isset($alert_error)): ?>
     <div class="alert alert-danger"><?php echo $alert_error; ?></div>
-  <? endif; ?>
+  <?php endif; ?>
 
   <?php if(isset($alert_success)): ?>
     <div class="alert alert-success"><?php echo $alert_success; ?></div>
@@ -38,7 +38,7 @@ The Twitter bootstrap framework is loaded via CDN in the includes/header.php fil
     <!-- Mobile number is a hidden field, used in validation call -->
     <?php if(isset($mobile_number)): ?>
       <input type="hidden" value="<?php echo $mobile_number; ?>" name="mobile_number">
-    <? endif; ?>
+    <?php endif; ?>
     <!-- Form field for user to enter validation code from the SMS they received -->
     <div class="form-group">
       <label for="validation-code">Validation Code</label>
