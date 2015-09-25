@@ -26,7 +26,7 @@ The Twitter bootstrap framework is loaded via CDN in the includes/header.php fil
   <!-- Display errors and messages -->
   <?php if(isset($alert_error)): ?>
     <div class="alert alert-danger"><?php echo $alert_error; ?></div>
-  <? endif; ?>
+  <?php endif; ?>
 
   <?php if(isset($alert_success)): ?>
     <div class="alert alert-success"><?php echo $alert_success; ?></div>
